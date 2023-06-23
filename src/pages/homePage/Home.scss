@@ -1,3 +1,539 @@
-.homecontainer{
-    height: 100vh;
+.homecontainer {
+
+    @media (min-width: 700px) {
+        padding-top: 125px;
+    }
+
+    .hero {
+        background-image: url('http://greenearthcalicut.com/wp-content/uploads/2023/06/slider.jpg');
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 80%;
+        margin: auto;
+        height: 100vh;
+        width: 100vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+        .welcome {
+            width: 100%;
+            padding-left: 8%;
+            box-sizing: border-box;
+            padding-top: 10%;
+
+            @media (max-width: 700px) {
+                padding-top: 20%;
+                padding-left: 0%;
+
+
+            }
+
+            h1 {
+                font-size: 30px;
+                text-align: center;
+
+                @media (min-width: 700px) {
+                    font-size: 50px;
+                    text-align: left;
+                }
+            }
+
+            p {
+                font-size: 22px;
+                font-weight: bold;
+                text-align: center;
+
+                @media (min-width: 700px) {
+                    text-align: left;
+                }
+            }
+        }
+
+        .green {
+            display: flex;
+            width: 100%;
+            padding: 0% 10%;
+            box-sizing: border-box;
+            background-color: rgba(28, 165, 28, 0.635);
+            align-items: center;
+            justify-content: space-around;
+            position: absolute;
+            bottom: 0;
+            row-gap: 50px;
+
+
+            @media (max-width: 800px) {
+                flex-direction: column;
+                bottom: auto;
+                top: 72%;
+
+                div:first-child {
+                    margin-top: 15px;
+                }
+
+            }
+
+
+
+            div {
+                padding: 0px 0px;
+                width: 90%;
+                margin: auto;
+                flex-direction: column;
+                align-items: flex-start;
+
+                .text {
+                    p {
+                        color: white;
+                        font-weight: 500;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .homesparkle {
+        width: 80%;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media (max-width: 1000px) {
+            flex-direction: column;
+            row-gap: 50px;
+            margin-top: 450px;
+        }
+
+
+        .left {
+
+            @media (max-width: 1000px) {
+                width: 100%;
+            }
+
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            row-gap: 13px;
+
+
+            h1 {
+                margin: 0;
+
+                @media (max-width: 700px) {
+
+                    font-size: 27px;
+                }
+            }
+
+            p {
+                font-size: 18px;
+                font-weight: 500;
+                color: rgba(0, 0, 0, 0.5);
+
+                @media (max-width: 700px) {
+
+                    font-size: 16px;
+                }
+            }
+
+            .ticks {
+                width: 72%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                @media (max-width: 1000px) {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    row-gap: 30px;
+                }
+
+                .ticksright {
+
+
+
+                    div {
+                        display: flex;
+                        align-items: center;
+
+                        width: 224px;
+
+                        img {
+                            margin-right: 10px;
+                        }
+
+                        p {
+                            font-size: 15px;
+                            font-weight: normal;
+
+                            @media (max-width: 1000px) {
+                                margin: 0;
+                                margin-bottom: 7px;
+                            }
+                        }
+                    }
+                }
+
+                .ticksleft {
+
+                    @media (max-width: 1000px) {
+                        margin-bottom: 30px;
+                    }
+
+
+                    div {
+                        display: flex;
+                        align-items: center;
+
+                        width: 224px;
+
+                        img {
+                            margin-right: 10px;
+                        }
+
+                        p {
+                            font-size: 15px;
+                            font-weight: normal;
+
+                            @media (max-width: 1000px) {
+                                margin: 0;
+                                margin-bottom: 7px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            button {
+                border-bottom-left-radius: 52px;
+                border-bottom-right-radius: 52px;
+                border-top-left-radius: 52px;
+                border-top-right-radius: 52px;
+                background: green;
+                color: white;
+                border: none;
+                padding: 19px 30px;
+                width: 153px;
+                height: 45px;
+                display: flex;
+                align-items: center;
+
+                justify-content: center;
+
+                @media (max-width: 500px) {
+                    padding: 12px 30px;
+                    width: 200px;
+
+                }
+
+                .getstarted {
+                    color: white;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 15px;
+                    letter-spacing: 1px;
+
+                    @media (max-width: 500px) {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+
+        .right {
+            width: 50%;
+
+            @media (max-width: 1000px) {
+                width: 100%;
+            }
+
+            .rightimage {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .ourservices {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 100%;
+        margin: auto;
+        background-color: #f6f6f6;
+
+        @media (max-width: 700px) {
+            padding: 50px 0px;
+        }
+
+
+        h1 {
+            color: #343434;
+            text-align: center;
+            font-size: 37px;
+
+            @media (max-width: 700px) {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .latestworks {
+        width: 100%;
+        margin: auto;
+        padding: 50px 0px;
+
+
+        @media (max-width: 700px) {
+            padding: 50px 0px;
+        }
+
+        p {
+            width: 35%;
+            margin: auto;
+            font-size: 18px;
+            color: #00000085;
+
+            @media (max-width: 700px) {
+                font-size: 15px;
+                width: 80%;
+            }
+        }
+
+
+        h1 {
+            color: #343434;
+            text-align: center;
+            font-size: 37px;
+            margin: 0;
+            margin-bottom: 40px;
+
+            @media (max-width: 700px) {
+                font-size: 30px;
+
+            }
+        }
+    }
+
+    .letscontact {
+        background-image: url('https://www.ekko-wp.com/static/wp-content/uploads/sites/3/2019/04/cleaning5.jpg?id=');
+        height: 100vh;
+        padding: 0% 10%;
+        display: flex;
+        align-items: center;
+
+        @media (max-width: 1000px) {
+            flex-direction: column;
+            row-gap: 50px;
+        }
+      
+
+        .letscontactleft {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            row-gap: 40px;
+
+            @media (max-width: 1000px) {
+                margin-top: 50px;
+               width: 90%;
+            }
+
+            h1 {
+                margin: 0;
+            }
+
+            .givecall{
+                font-size: 20px;
+                font-weight: 600;
+                color: rgba(0, 0, 0, 0.507);
+
+                @media (max-width: 1000px) {
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+
+            .contactmethods {
+                display: flex;
+                width: 100%;
+                align-items: center;
+                justify-content: space-between;
+                column-gap: 12px;
+
+                @media (max-width: 1000px) {
+                    flex-direction: column;
+                    row-gap: 30px;
+                }
+
+                div {
+                    width: 176px;
+                    height: 176px;
+                    background-color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                    border-radius: 5px;
+
+                    background-color: rgba(0, 128, 0, 0.861);
+
+                    @media (max-width: 700px) {
+                        width: 100%;
+                    }
+                  
+                        p{
+                            color: rgba(255, 255, 255, 0.815) !important;
+                            font-weight: 400;
+                        }
+                    
+
+
+
+                    p {
+                        width: 80%;
+                        text-align: center;
+
+                        font-size: 15px;
+
+                       
+
+                    }
+
+                   
+
+                }
+            }
+
+        }
+
+        .letscontactright {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            @media (max-width: 1000px) {
+                width: 100%;
+            }
+
+            .form {
+                width: 65%;
+                background: white;
+                border-radius: 10px;
+
+                @media (max-width: 1000px) {
+                    width: 100%;
+                    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+                    margin-bottom: 50px;
+                }
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                h1{
+                    margin-bottom: 50px;
+                    margin-top: 50px;
+                    font-size: 26px;
+                    font-weight: 500;
+                    color: #343434d0;
+                }
+
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    row-gap: 15px;
+
+                    input {
+                        color: #7d7d7d;
+                        font-size: 14px;
+                        background-color: #f6f6f6;
+                        border: none;
+                        width: 70%;
+                        border-top-left-radius: 25px;
+                        border-top-right-radius: 25px;
+                        border-bottom-right-radius: 25px;
+                        border-bottom-left-radius: 25px;
+                        padding: 16px 20px;
+                        outline: none;
+                    }
+
+                    button {
+                        border-bottom-left-radius: 52px;
+                        border-bottom-right-radius: 52px;
+                        border-top-left-radius: 52px;
+                        border-top-right-radius: 52px;
+                        background: rgba(0, 128, 0, 0.792);
+                        color: white;
+                        border: none;
+                        padding: 16px 20px;
+                        width: 78%;
+                        margin-bottom: 50px;
+                    }
+
+                }
+
+            }
+        }
+    }
+
+    .mobilefooter{
+        padding: 30px 20px;
+        background-color: black;
+        margin-top: 823px;
+
+        @media (min-width: 1000px) {
+            display: none;
+        }
+    
+        p {
+    
+            text-align: center;
+            color: white;
+    
+            @media (max-width: 700px) {
+                font-size: 14px;
+            }
+    
+        }
+    }
+
+    .desktopfooter{
+        padding: 30px 20px;
+        background-color: black;
+
+        @media (max-width: 1000px) {
+            display: none;
+        }
+    
+        p {
+    
+            text-align: center;
+            color: white;
+    
+            @media (max-width: 700px) {
+                font-size: 14px;
+            }
+    
+        }
+    }
 }
+
+
+//#82AF27

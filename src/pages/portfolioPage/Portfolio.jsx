@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import './Portfolio.scss'
 import Navbar from '../../components/Navbar/Navbar'
+import Footer from '../../components/Footer/Footer'
 
 function Portfolio() {
 
@@ -122,6 +123,7 @@ function Portfolio() {
                 </div>
 
             </div>
+            <Footer/>
         </>
     )
 }

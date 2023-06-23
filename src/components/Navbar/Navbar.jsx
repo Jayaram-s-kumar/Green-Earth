@@ -33,7 +33,9 @@ function Navbar({ active }) {
                         </li>
                         <li>
                             <button>
-                                <span className='getstarted'>Get started</span>
+                                <span className='getstarted'>
+                                    <Link to={'/contact'} style={{ color: 'white' }}>Get Started</Link>
+                                </span>
                             </button>
                         </li>
                     </ul>
@@ -45,7 +47,7 @@ function Navbar({ active }) {
                     <div className="logo">
                         <img src="http://greenearthcalicut.com/wp-content/uploads/2021/10/green-earth.png" alt="" />
                     </div>
-                    <div className="hamburger" onClick={()=>{
+                    <div className="hamburger" onClick={() => {
                         setOpen(!open)
                         setClicked(true)
                     }}>
@@ -56,23 +58,25 @@ function Navbar({ active }) {
                     <ul>
 
                         <li >
-                            <Link className={active == 'home' && 'active'} to={'/'} onClick={()=>{setOpen(false)}}>Home</Link>
+                            <Link className={active == 'home' && 'active'} to={'/'} onClick={() => { setOpen(false) }}>Home</Link>
                         </li>
                         <li>
-                            <Link className={active == 'about' && 'active'} to={'/about'} onClick={()=>{setOpen(false)}}>About</Link>
+                            <Link className={active == 'about' && 'active'} to={'/about'} onClick={() => { setOpen(false) }}>About</Link>
                         </li>
                         <li >
-                            <Link className={active == 'services' && 'active'} to={'/service'} onClick={()=>{setOpen(false)}}>Services</Link>
+                            <Link className={active == 'services' && 'active'} to={'/service'} onClick={() => { setOpen(false) }}>Services</Link>
                         </li>
                         <li >
-                            <Link className={active == 'portfolio' && 'active'} to={'/portfolio'} onClick={()=>{setOpen(false)}}>Portfolio</Link>
+                            <Link className={active == 'portfolio' && 'active'} to={'/portfolio'} onClick={() => { setOpen(false) }}>Portfolio</Link>
                         </li>
                         <li>
-                            <Link className={active == 'contact' && 'active'} to={'/contact'} onClick={()=>{setOpen(false)}}>Contact</Link>
+                            <Link className={active == 'contact' && 'active'} to={'/contact'} onClick={() => { setOpen(false) }}>Contact</Link>
                         </li>
                         <li>
                             <button>
-                                <span className='getstarted'>Get started</span>
+                                <span className='getstarted'>
+                                    <Link to={'/contact'} style={{ color: 'white' }}>Get Started</Link>
+                                </span>
                             </button>
                         </li>
                     </ul>

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Contact.scss'
 import Navbar from '../../components/Navbar/Navbar'
+import Footer from '../../components/Footer/Footer'
 
 function Contacat() {
     return (
@@ -61,6 +62,8 @@ function Contacat() {
 
 
             </div>
+
+            <Footer/>
         </>
 
 

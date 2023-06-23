@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.scss'
 import Navbar from '../../components/Navbar/Navbar'
+import Footer from '../../components/Footer/Footer'
 
 function About() {
     return (
@@ -15,6 +16,7 @@ function About() {
                     <span className='contactus'>Contact Us</span>
                 </button>
             </div>
+            <Footer/>
         </>
     )
 }

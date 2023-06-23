@@ -19,7 +19,6 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />}></Route>
           <Route path="/about" element={<About />}></Route>
         </Routes>
-        <Footer/>
       </BrowserRouter>
     </div>
   );
