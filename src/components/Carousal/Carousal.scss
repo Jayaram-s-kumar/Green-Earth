@@ -1,0 +1,52 @@
+.carousalcontainer {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+
+    @media (max-width: 750px) {
+        .slick-arrow {
+            display: none !important;
+        }
+    }
+
+    .card {
+        width: 344px !important;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 20px;
+        height: 323px;
+
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+        margin: 30px 0px;
+        margin-left: auto;
+        margin-right: auto;
+
+        border-radius: 10px;
+
+        @media (max-width: 1330px) {
+            width: 280px !important;
+            height: 250px !important;
+        }
+
+        h3 {
+            text-align: left !important;
+            width: 89%;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            color: rgba(0, 0, 0, 0.756);
+        }
+
+        div {
+            border-radius: 5px;
+            overflow: hidden;
+            img {
+                height: 220px !important;
+                width: 100%;
+
+            }
+        }
+    }
+}

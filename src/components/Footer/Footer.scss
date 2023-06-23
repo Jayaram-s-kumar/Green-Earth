@@ -1,0 +1,15 @@
+.footercontainer {
+    padding: 30px 20px;
+    background-color: black;
+
+    p {
+
+        text-align: center;
+        color: white;
+
+        @media (max-width: 700px) {
+            font-size: 14px;
+        }
+
+    }
+}
