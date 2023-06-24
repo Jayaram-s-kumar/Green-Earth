@@ -40,13 +40,13 @@ function Contacat() {
 
                 </div>
 
-                <div className="contactform">
+                <div className="contactform" >
                     <div className="map">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31303.12138627584!2d75.774378!3d11.269483!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65fffc3f2eb95%3A0x83f9652730eefc6d!2sGreen%20Earth%20infrastructure!5e0!3m2!1sen!2sin!4v1687357962108!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='mapobj'></iframe>
                     </div>
                     <div className="contact">
 
-                        <div className="title">
+                        <div className="title" id='contactform'>
                             <h1>Contact us</h1>
                             <p>Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days.</p>
                         </div>

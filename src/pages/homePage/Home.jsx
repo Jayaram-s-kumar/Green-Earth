@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useState } from 'react';
 import Footer from '../../components/Footer/Footer';
+import { Link } from 'react-router-dom';
 
 
 function Home() {
@@ -212,7 +213,9 @@ function Home() {
             </div>
 
             <button>
-              <span className="getstarted">Get started</span>
+              <span className="getstarted">
+                <Link to={'/contact'}>Get Started</Link>
+              </span>
             </button>
 
           </div>
