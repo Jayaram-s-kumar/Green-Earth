@@ -69,63 +69,63 @@ function Home() {
     ]
   }
 
+
   const allData = [{
     image: '/images/house1.jpg',
-    desc: 'Lorem, ipsum dolor.'
+    desc: 'Residence for Mr Noushad VK.'
   }, {
     image: '/images/house2.jpeg',
-    desc: 'Lorem, ipsum dolor.'
+    desc: 'Residence of Afsal Erannolikkandi.'
   }, {
     image: 'images/house3.jpeg',
-    desc: 'Lorem, ipsum dolor.'
+    desc: 'Residence for Diya.'
   },
   {
     image: 'images/house4.jpeg',
-    desc: 'Lorem, ipsum dolor.'
+    desc: 'Residence of Mr Ussainkutty Haji.'
   },
   {
     image: 'images/house5.jpeg',
-    desc: 'Lorem, ipsum dolor.'
+    desc: 'Residence of Mr Nisar Vadakkeparambil.'
   }]
 
   const commercialData = [{
     image: '/images/house6.jpeg',
-    desc: 'Lorem, ipsum dolor.'
+    desc: 'Residence of Mr Nisar Vadakkeparambil.'
   }, {
     image: '/images/house7.jpeg',
-    desc: 'Lorem, ipsum dolor.'
+    desc: 'Residence of Mr Ussainkutty Haji.'
   }, {
     image: 'images/house8.jpeg',
-    desc: 'Lorem, ipsum dolor.'
+    desc: 'Residence for Diya.'
   },
   {
     image: 'images/house9.jpeg',
-    desc: 'Lorem, ipsum dolor.'
+    desc: 'Residence of Afsal Erannolikkandi.'
   },
   {
     image: 'images/house10.jpeg',
-    desc: 'Lorem, ipsum dolor.'
+    desc: 'Residence for Mr Noushad VK.'
   }]
 
   const resedentialData = [{
     image: '/images/house11.jpeg',
-    desc: 'Lorem, ipsum dolor.'
+    desc: 'Residence of Mr Nisar Vadakkeparambil.'
   }, {
     image: '/images/house12.jpeg',
-    desc: 'Lorem, ipsum dolor.'
+    desc: 'Residence for Diya.'
   }, {
     image: 'images/house13.jpeg',
-    desc: 'Lorem, ipsum dolor.'
+    desc: 'Residence of Mr Ussainkutty Haji.'
   },
   {
     image: 'images/house14.jpeg',
-    desc: 'Lorem, ipsum dolor.'
+    desc: 'Residence for Mr Noushad VK.'
   },
   {
     image: 'images/house15.jpeg',
-    desc: 'Lorem, ipsum dolor.'
+    desc: 'Residence of Afsal Erannolikkandi.'
   }]
-
   const [cardData, setCardData] = useState(allData)
   const [active, setActive] = useState(1)
 
