@@ -76,7 +76,7 @@ function Navbar({ active }) {
                             <li>
                                 <button>
                                     <span className='getstarted'>
-                                        <Link to={'/contact'} style={{ color: 'white' }}>Get Started</Link>
+                                        <Link to={'/contact'} style={{ color: 'white' }} onClick={() => { setOpen(false) }}>Get Started</Link>
                                     </span>
                                 </button>
                             </li>
