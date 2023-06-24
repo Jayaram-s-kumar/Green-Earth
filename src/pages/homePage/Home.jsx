@@ -217,7 +217,7 @@ function Home() {
 
           </div>
           <div className="right">
-            <img className='rightimage' src="http://greenearthcalicut.com/wp-content/uploads/2020/02/bg-605x372.jpg" alt="" />
+            <img className='rightimage' src="/images/sparkleright.jpg" alt="" />
           </div>
         </div>
 
